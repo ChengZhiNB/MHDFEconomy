@@ -1,0 +1,5 @@
+cn\ChengZhiYa\MHDFEconomy\Main.class
+cn\ChengZhiYa\MHDFEconomy\CMDs\MoneyOperateCommands.class
+cn\ChengZhiYa\MHDFEconomy\vault\VaultHook.class
+cn\ChengZhiYa\MHDFEconomy\apis\MHDFEconomyAPI.class
+cn\ChengZhiYa\MHDFEconomy\apis\MHDFEconomy.class

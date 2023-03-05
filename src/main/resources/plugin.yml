@@ -1,0 +1,26 @@
+name: MHDFEconomy
+main: cn.ChengZhiYa.MHDFEconomy.Main
+version: ${project.version}
+api-version: 1.13
+softdepend: [Vault, PlaceholderAPI]
+load: STARTUP
+
+commands:
+  money:
+    description: 货币余额
+    usage: /money
+  givemoney:
+    description: 给玩家钱
+    usage: /givemoney [玩家] [数字]
+    permissions:
+      givemoney.use:
+        defailt: [true]
+  takemoney:
+    description: 拿走玩家的钱
+    usage: /takemoney [玩家] [数字]
+  setmoney:
+    description: 设置玩家的钱
+    usage: /setmoney [玩家] [数字]
+  baltop:
+    description: 金钱排行榜
+    usage: /baltop
